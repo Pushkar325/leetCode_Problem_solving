@@ -80,15 +80,18 @@
 
             } 
               // print all prime number till N
+              int count=0;
               System.out.println("Your prime number for 1 to " + n +" is.... ");
               for(int i=2; i<isPrime.length; i++)
               {
                 if(isPrime[i]==true)
                 {
                     System.out.print(i+" ");
+                    count++;
                 }
               }
-              System.out.println();
+              System.out.println("\nyour count is.... "+count);
+
         }
         public static void main(String args[])
         {
